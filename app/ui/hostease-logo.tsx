@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { inter } from '@/app/ui/fonts';
 import React from 'react';
 
-export default function AcmeLogo() {
+export default function HostEaseLogo() {
   return (
     <div
       className={`${inter.className} flex flex-row items-center leading-none text-white`}
@@ -12,7 +12,7 @@ export default function AcmeLogo() {
           src='/HE-red-logo.png'
           width={50} 
           height={50} 
-          className='block md:hidden'
+          className='block'
           alt='Screenshots of the dashboard project showing mobile version'
           />
       <p className="text-[18px] pl-3">No more waiting...</p>
